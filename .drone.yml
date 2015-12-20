@@ -1,8 +1,4 @@
 build:
-  image: centos6
-  commands:
-    - ls
-    - echo hi
-    - pwd
-    - uname
-    - cat /etc/redhat-release
+  image: golang
+    commands:
+      - go build
